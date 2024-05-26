@@ -105,7 +105,7 @@ if (! isset($_SESSION["logged"]) || $_SESSION["logged"] != 1) {
 <li>iD : <?=$_SESSION["user_id"]?></lil>
 </ul>
 
-<p>Quit: <a href='logout.php'>Log Out</p>
+<p><a href='logout.php'>Log Out</p>
 
 </body>
 </html>

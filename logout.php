@@ -6,7 +6,7 @@ session_destroy();
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Fermeture de session</title>
+  <title>Closing Session</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -52,10 +52,10 @@ session_destroy();
 </head>
 
 <body>
-<h1>Fermeture de session</h1>
+<h1>Closing session</h1>
 
 <p>
-Votre session a été détruite
+Session has been destroyed
 </p>
 <p><a href='login.php'>Connexion</p>
 </body>
