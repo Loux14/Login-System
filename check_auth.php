@@ -40,17 +40,18 @@ if (mysqli_num_rows($resultat) === 0) {
 
     // hash check
     if ($hash === $password_hash) {
-        echo "Authentication succesful : <a href='home.php'>HOME</a>";
-        addLogEntry("Success authentication for "  . $_SESSION["email"], $_SESSION["email"], "Login Success");
-
-        //Session infos
+        echo "<div style='font-family: Arial, sans-serif; background-color: #e0ffe0; color: #333; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);'>
+                Authentication successful : <a href='home.php' style='text-decoration: none; color: #007BFF;'>HOME</a>
+              </div>";
+        addLogEntry("Success authentication for " . $_SESSION["email"], $_SESSION["email"], "Login Success");
+    
+        // Session infos
         $_SESSION["logged"] = 1;
         $_SESSION["name"] = $row["name"];
         $_SESSION["user_id"] = $row["user_id"];
         $_SESSION["email"] = $row["email"];
-
-         
-    } else {
+    }
+     else {
         // wrong password
         echo  "Wrong username or password, try again : <a href='login.php'>Connexion</a>";
         // ajout au journal de log
