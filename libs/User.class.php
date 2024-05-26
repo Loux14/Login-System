@@ -15,7 +15,6 @@ class User {
   
     if ($count == 1) {
       $_SESSION['uid'] = $data -> uid;
-      $_SESSION['secret'] = $data -> auth_seed_value;
       return true;
     }
     else {
@@ -25,7 +24,7 @@ class User {
 
 
   /* Sign in user to the application. */
-  public function login($email, $password, $secret) {
+  public function login($email, $password) {
 
     $db = getDB();
     $hash_password = hash('sha256', $password);
@@ -39,7 +38,6 @@ class User {
   
     if ($count) {
       $_SESSION['uid'] = $data -> uid;
-      $_SESSION['google_auth_code'] = $google_auth_code;
       return true;
     }
     else {
@@ -82,7 +80,7 @@ class User {
       $_SESSION['uid'] = $uid;
     //} 
     //catch(PDOException $e) {
-     // echo '{"error":{"text":' . $e->getMessage() . '}}'; 
+     // echo '{"error":{"text":' . $e->getMessage() . '}}';
    // }
   }
 

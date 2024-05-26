@@ -9,8 +9,7 @@ CREATE TABLE users (
   name         VARCHAR(100),
   email        VARCHAR(100) UNIQUE NOT NULL,
   hash         VARCHAR(100) NOT NULL,
-  salt         VARCHAR(50) NOT NULL,
-  secret       VARCHAR(60) NOT NULL
+  salt         VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE logs (

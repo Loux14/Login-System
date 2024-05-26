@@ -16,7 +16,7 @@ function addLogEntry($mainLog, $suppLog, $logType) {
   $sql = "INSERT INTO logs(ip_address, user_agent, log_dt, user_id, main_log, supp_log, log_type) VALUES ('" .
          $ip_address . "', '" . $user_agent . "', CURRENT_TIMESTAMP, " . $user_id . ", '" . $mainLog . "', '" . $suppLog . "', '" . $logType . "')";
 
-  // echo $sql;   // À utiliser pour voir la commande SQL.
+  
 
   $log_conn->query($sql);
 
