@@ -2,7 +2,7 @@
 
 * Data Security (optionnal course) project
 * Login/ Logout system
-* MySQL database : users amd logs
+* MySQL database : users and logs
 * hash + salt passwords
   
 You register with name, email, and password.
