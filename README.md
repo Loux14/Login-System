@@ -9,7 +9,7 @@ You register with name, email, and password.
 The database is populated with the information.
 
 When you log in, the hash is compared to the database.
-Once logged, you can see the last 5 log attempts with email and password. You also can see your name and iD.
+Once logged, you can see the last 5 log attempts with your email and password. You also can see your name and iD.
 
 
 # Notes
