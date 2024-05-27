@@ -1,7 +1,7 @@
-# ***Log in System***
+# ***Login System***
 
 * Data Security (optionnal course) project
-* Log in/ Log out system
+* Login/ Logout system
 * MySQL database : users amd logs
 * hash + salt passwords
   
