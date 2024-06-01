@@ -16,7 +16,7 @@ Once logged, you can see the last 5 log attempts with your email and password. Y
 
 *Originally, a Google Authenticator 2FA with QR Code was included in the project.*
 
-*It has been remove.*
+*It has been removed.*
 
 *All the 'libs' files are reused code from libraries.*
 
