@@ -28,7 +28,6 @@ Once logged, you can see the last 5 log attempts with your email and password. Y
 <img width="495" alt="connexion" src="https://github.com/Loux14/logged/assets/122696881/f1967456-3603-477e-a964-3b7f821e5fc1">
 
 
-<img width="586" alt="insideHome" src="https://github.com/Loux14/logged/assets/122696881/5c5026c7-a09d-4ed9-9eb2-0d4632c76567">
 
 
 <img width="1051" alt="users" src="https://github.com/Loux14/logged/assets/122696881/a3ae44d0-e456-4fb6-bd82-8df2626a6328">
